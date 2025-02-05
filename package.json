@@ -1,0 +1,46 @@
+{
+    "name": "laravel-model-generator",
+    "displayName": "Laravel Model Generator",
+    "description": "Generate Laravel model properties from migrations",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.85.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onLanguage:php"
+    ],
+    "contributes": {
+        "commands": [
+            {
+                "command": "laravelModelGenerator.importToModel",
+                "title": "Import Fields to Model"
+            }
+        ],
+        "menus": {
+            "editor/context": [
+                {
+                    "when": "editorHasSelection && resourceExtname == .php",
+                    "command": "laravelModelGenerator.importToModel",
+                    "group": "navigation"
+                }
+            ]
+        }
+    },
+    "main": "./out/extension.js",
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./"
+    },
+    "dependencies": {
+        "php-parser": "^3.1.5"
+    },
+    "devDependencies": {
+        "@types/node": "^16.0.0",
+        "@types/vscode": "^1.85.0",
+        "typescript": "^5.0.0"
+    }
+}
