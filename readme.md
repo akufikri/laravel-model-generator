@@ -1,3 +1,5 @@
+<img width="1500" alt="banners" src="https://github.com/user-attachments/assets/c1046061-4977-4a1b-9376-ed602d9b4bb4" />
+
 # Laravel Model Generator
 
 Extension VSCode untuk menggenerate properti model Laravel dari migration.
