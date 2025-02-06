@@ -30,7 +30,7 @@ Search "Laravel Model Generator" di VS Code Extensions marketplace
 Initial release
 
 # Change Log
-## [1.0.0] - 2024-02-05
+## [1.0.0] - 2025-02-05
 - Initial release
 - Feature: Import fields from migration to model
 - Feature: Context menu integration
