@@ -27,7 +27,7 @@
     },
     "displayName": "Laravel Model Generator",
     "description": "Generate Laravel model properties from migrations",
-    "version": "0.0.1",
+    "version": "2.0.0",
     "engines": {
         "vscode": "^1.85.0"
     },
